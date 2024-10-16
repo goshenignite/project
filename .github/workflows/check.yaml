@@ -3,8 +3,7 @@ on: [push]
 
 jobs:
     build:
-        runs-on: ubuntus-latest
-        
+        runs-on: ubuntu-latest
         steps:
             - name: check version
               run : |
