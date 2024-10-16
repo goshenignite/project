@@ -1,0 +1,39 @@
+name: try this to know more
+on: [push]
+
+jobs:
+    build:
+        runs-on: ubuntus-latest
+        
+        steps:
+            - name: check version
+              run : |
+                 pwd
+                 ls -a
+                 echo $GITHUB_SHA
+                 echo $GITHUB_REPOSITORY
+                 echo $GITHUB_WORKSPACE
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
